@@ -6,7 +6,7 @@ ini_set('display_errors',true);
 ?>
 
 <?php
-$source_pdf="data/sample.pdf";
+$source_pdf="sample.pdf";
 $output_folder="output";
 
     if (!file_exists($output_folder)) { mkdir($output_folder, 0777, true);}
